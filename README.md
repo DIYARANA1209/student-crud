@@ -123,3 +123,11 @@ Test these cases in `/docs`:
 ## Important
 
 Data is stored only in Python memory. Restarting the application clears the student records.
+
+## API Endpoints
+
+- POST /students - Create student
+- GET /students - Get all students
+- GET /students/{id} - Get student by ID
+- PUT /students/{id} - Update student
+- DELETE /students/{id} - Delete student
